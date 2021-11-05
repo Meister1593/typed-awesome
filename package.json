@@ -1,0 +1,20 @@
+{
+  "name": "typed-awesome",
+  "version": "1.0.0",
+  "author": {
+    "name": "PLYSHKA"
+  },
+  "private": true,
+  "files": [
+    "src/**/*.d.ts"
+  ],
+  "scripts": {
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.34",
+    "prettier": "^2.0.5",
+    "lua-types": "^2.11.0",
+    "typescript-to-lua": "^1.0.1"
+  }
+}
